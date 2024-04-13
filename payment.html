@@ -1,0 +1,197 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Payment page</title>
+
+	<link rel="icon" type="image/icon" href="C:\Users\Lenovo\Downloads\1658326507295grocery\image\favicon.PNG">
+
+	
+	
+
+
+<!-- Code for font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--End  Code for font awesome cdn -->
+
+<link rel="stylesheet" type="text/css" href="scripts.js">
+
+<!-- Code for linking css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--  End Code for linking css -->
+
+
+
+
+</head>
+<body>
+
+	<!-- Code for header section -->
+<header class="header">
+	<a href="#" class="logo">  <i class="fa fa-shopping-basket"></i> Grocery Store</a>
+
+
+<nav class="navbar">
+	<a href="#home">home</a>
+	<a href="#features">features</a>
+	<a href="#products">products</a>
+	<a href="#categories">categories</a>
+	<a href="#review">review</a>
+	<a href="#blogs">blogs</a>
+</nav>	
+
+<div class="icons">
+	<div class="fa fa-bars" id="menu-btn"></div>
+	<div class="fa fa-search" id="search-btn"></div>
+	<div class="fa fa-shopping-cart" id="cart-btn"></div>
+	<div class="fa fa-user" id="login-btn"></div>
+</div>
+
+</header>
+
+
+<!-- Code for banner/home section -->
+
+<section class="home" id="home">
+	<div class="content">
+		<h3>Fresh And <span>Organic</span> Vegetables For You</h3>
+		<p>You are most welcome to Group four(4) onliine vegetable store.
+	      Here, we sell only the best products. Customer satisfaction is our 
+	      topmost priority. Stick and stay with us and buy from the trusted brand.
+		</p>
+
+		<a href="#" class="btn">Shop Now</a>
+	</div>
+	
+</section>
+<!--  End Code for banner section -->
+
+
+<section class="features" id="features">
+	<h1 class="heading">Payment<span>Methods</span></h1>
+
+
+<br><p>We offer a variety of convienient payment methods to suit your preferences. Whether you prefer to pay with credit card, debit card, PayPal, Mobile Money (MoMo) or other electronic payment option, we have got you covered.<br><br>Your security is our topmost priority, so you can shop with confidence knowing that your payment informatin is encrypted ad protected. Choose the payment method that works best for you and enjoy a seamless checkout experience with us every time.<br><br>
+</p>
+</sectio>
+
+<p><b>Please Fill the form below to make Payment for both the Product and for the Delivery(Note that Amount to be Paid for Delivery is not on the form because
+	DELIVERY IS FREE FOR ALL PRODUCTS.)<br><br>
+</b></p>
+
+
+<div class="checkout">
+	<h1 class="heading">CheckOut<span>Form</span></h1></div>
+
+
+<p>Please fill out this form to help us improve our site</p>
+
+	<form method="post" action="/cgi-bin/formmail">
+	
+	<p>
+		<input type="hidden" name="recipient" value="deitel@deitel.com" />
+		<input type="hidden" name="subject" value="FeedBack Form" />
+		<input type="hidden" name="redirect" value="basic Forms.html" />
+	</p>
+
+
+<p><label>Name:
+	<input type="text" name="name" size="25" maxlength="30" maxsize="20" />
+
+</label></p>
+
+<p><label>Comment:<br />
+	<textarea name="comments" rows="4" cols="36">
+Enter your comments here.
+	</textarea>
+</label></p>
+
+<p><label>Email Address:
+	<input type="password" name="email" size="25" />
+</label></p>
+
+<p>
+	<strong>Things you liked</strong><br />
+
+	<label>Site Design
+		<input type="checkbox" name="thingsliked" value="Design" />
+	</label>
+
+	<label>Links
+		<input type="checkbox" name="thingsliked" value="Links" />
+	</label>
+
+	<label>Ease of use
+		<input type="checkbox" name="thingsliked" value="Ease" />
+	</label>
+
+	<label>Images
+		<input type="checkbox" name="thingsliked" value="Images" />
+	</label>
+
+	<label>Source Code
+		<input type="checkbox" name="thingsliked" value="Code" />
+	</label>
+</p>
+
+<p>
+	<input type="submit" value="Submit your entries" />
+	<input type="reset" value="Clear your entries" />
+</p>
+
+<p>
+	<strong>How did you get to our site?</strong><br>
+
+	<label>Search Engine
+		<input type="radio" name="howtosite" value="search engine" checked ="checked"/>
+	</label>
+
+	<br><label>Link From Another Site
+		<input type="radio" name="howtosite" value="link" />
+	</label>
+
+	<label>Deitel.com Web Site
+		<input type="radio" name="thingsliked" value="deitel.com" />
+	</label>
+
+
+	<label>Reference in a book
+		<input type="radio" name="thingsliked" value="book" />
+	</label>
+</p>
+
+<p>
+	<label>Rate our site:
+
+		<select name = "rating">
+			<option selected = "selected">Amazing</option>
+			<option selected = "selected">10</option>
+			<option selected = "selected">9</option>
+			<option selected = "selected">8</option>
+			<option selected = "selected">7</option>
+			<option selected = "selected">6</option>
+			<option selected = "selected">5</option>
+			<option selected = "selected">4</option>
+			<option selected = "selected">3</option>
+			<option selected = "selected">2</option>
+			<option selected = "selected">1</option>
+			<option selected = "selected">Awful</option>
+
+		</select>
+	</label>
+</p>
+
+
+<p>
+	<input type="submit" value="Submit your entries" />
+	<input type="reset" value="Clear your entries" />
+</p>
+</form>
+
+
+</div>
+
+</body>
+</html>
